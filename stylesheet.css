@@ -1,0 +1,60 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #313030;
+    padding: 10px;
+}
+
+.jumbotron{
+    background-color: #e4e2e2;
+}
+
+.jumbotron h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow:  0 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron p{
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow:  0 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+.content h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.CentraCare p{
+    font-size: 23px;
+}
+
+.Essentia p{
+    font-size: 23px;
+}
+
+.umd {
+    font-size: 23px;
+}
+
+.lsc {
+    font-size: 23px;
+}
+
+#dates{
+    float: right;
+    font-size: 19px;
+}
+
+#place {
+    font-size: 19px;
+}
+
+#course {
+    font-size: 19px;
+}
+
+li{
+    list-style-type: square;
+    font-size: 16px;
+}
