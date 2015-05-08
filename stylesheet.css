@@ -6,6 +6,8 @@ body {
 
 .jumbotron{
     background-color: #e4e2e2;
+    padding: 30px;
+    margin-bottom: 10px;
 }
 
 .jumbotron h1{
