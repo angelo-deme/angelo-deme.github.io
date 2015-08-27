@@ -10,5 +10,21 @@
     <p>
       This is a paragraph about how much I love dogs. They are a man's best friend and are the best companions, they can bark and They are a man's best friend and are the best companions, they can bark and jump and lick.
     </p>
+
+    <button id='hide' type="button" name="button">Click me to hide my header</button>
+    <button id='show' type="button" name="button">Click me to show my header</button>
   </body>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      //when hide is clicked slide up
+      $('#hide').click(function(){
+        $('h1').slideUp();
+      });
+//when hide is clicked slide up
+      $('#show').click(function(){
+        $('h1').slideDown();
+      });
+    });
+  </script>
 </html>
